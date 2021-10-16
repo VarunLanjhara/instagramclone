@@ -8,12 +8,33 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@react-native-masked-view/masked-view": "^0.2.6",
+    "@react-navigation/bottom-tabs": "^6.0.8",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/stack": "^6.0.11",
     "expo": "~42.0.1",
+    "expo-google-app-auth": "^8.2.2",
+    "expo-image-manipulator": "~9.2.2",
+    "expo-image-picker": "~10.2.2",
     "expo-status-bar": "~1.0.4",
+    "firebase": "8.2.3",
+    "moment": "^2.29.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
-    "react-native-web": "~0.13.12"
+    "react-native-elements": "^3.4.2",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-modal": "^13.0.0",
+    "react-native-paper": "^4.9.2",
+    "react-native-recaptcha-that-works": "^1.1.0",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-screens": "~3.4.0",
+    "react-native-share": "^7.1.2",
+    "react-native-skeleton-content": "^1.0.22",
+    "react-native-skeleton-placeholder": "^5.0.0",
+    "react-native-web": "~0.13.12",
+    "react-native-webview": "^11.14.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0"

@@ -1,0 +1,95 @@
+import { StyleSheet } from "react-native";
+
+const styles = StyleSheet.create({
+  container: {
+    backgroundColor: "white",
+    flex: 1,
+    alignItems: "center",
+  },
+  logo: {
+    width: 200,
+    height: 200,
+    resizeMode: "contain",
+  },
+  inputemailusername: {
+    width: 300,
+    height: 48,
+    borderColor: "#eaeaea",
+    borderWidth: 2,
+    borderRadius: 7,
+    backgroundColor: "#fafafa",
+    paddingLeft: 10,
+  },
+  passwordinput: {
+    width: 300,
+    height: 48,
+    borderColor: "#eaeaea",
+    borderWidth: 2,
+    borderRadius: 7,
+    backgroundColor: "#fafafa",
+    paddingLeft: 10,
+    marginTop: 20,
+  },
+  btn: {
+    width: 300,
+    height: 48,
+    backgroundColor: "#0095f6",
+    marginTop: 20,
+    borderRadius: 7,
+    justifyContent: "center",
+    alignItems: "center",
+    opacity: 0.4,
+  },
+  btn2: {
+    width: 300,
+    height: 48,
+    backgroundColor: "#0095f6",
+    marginTop: 20,
+    borderRadius: 7,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  btntext: {
+    color: "white",
+    fontWeight: "bold",
+    fontSize: 14,
+  },
+  googleauth: {
+    color: "#1484d7",
+    fontSize: 17,
+    marginTop: 10,
+    fontWeight: "bold",
+  },
+  googlelogo: {
+    width: 29,
+    height: 30,
+    marginRight: 6,
+    marginTop: 8,
+  },
+  bottomstuff: {
+    position: "absolute",
+    bottom: 0,
+    backgroundColor: "#fafafa",
+    width: "100%",
+    height: 50,
+    alignItems: "center",
+    justifyContent: "center",
+    flexDirection: "row",
+  },
+  topstuff: {
+    fontSize: 25,
+    fontWeight: "bold",
+    textAlign: "center",
+    marginTop: 10,
+  },
+  error: {
+    color: "gray",
+    fontSize: 16,
+    fontWeight: "500",
+    paddingLeft: 10,
+    paddingRight: 10,
+    marginTop: 10,
+  },
+});
+
+export default styles;
